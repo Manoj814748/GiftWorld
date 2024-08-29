@@ -1,21 +1,11 @@
-import SearchBar from './components/Searchbar'; // Adjust the path as necessary
-import CartIcon from './components/Cart';
-import MenuIcon from './components/Menu';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div className='header-container'>
-    <div className='header1'>
-    <h1></h1>
-    <SearchBar />
-    {/* Your content or list goes here */}
-    <header style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
-   <CartIcon />
-   <MenuIcon/>
-    </header>
-    
-  </div>
+    <div>
+      <Header />
+      {/* Other components go here */}
     </div>
   );
 };
