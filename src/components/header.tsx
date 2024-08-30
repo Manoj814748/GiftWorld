@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './header.css';
+import './Header.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Header: React.FC = () => {
